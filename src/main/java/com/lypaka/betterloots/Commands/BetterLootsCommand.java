@@ -21,6 +21,7 @@ public class BetterLootsCommand {
     public static void onCommandRegistration (RegisterCommandsEvent event) {
 
         new ClearCommand(event.getDispatcher());
+        new MenuCommand(event.getDispatcher());
         new ReloadCommand(event.getDispatcher());
         new SetAccessibleCommand(event.getDispatcher());
 
